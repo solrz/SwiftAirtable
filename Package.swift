@@ -32,5 +32,5 @@ let package = Package(name: "SwiftAirtable",
                       products: [.library(name: "SwiftAirtable",
                                           targets: ["SwiftAirtable"])],
                       targets: [.target(name: "SwiftAirtable",
-                                        path: "/Classes/**/*")],
+                                        path: "*.swift")],
                       swiftLanguageVersions: [.v4])
